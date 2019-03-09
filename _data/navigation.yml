@@ -2,12 +2,10 @@
 main:
   - title: "About"
     url: /about/
+  - title: "Categories"
+    url: /categories/
   - title: "Archive"
     url: /year-archive/
-  - title: "Categories"
-    url: /post-archive/
-  - title: "Tags"
-    url: /splash-page/
   - title: "Azit"
     url: /Azit/
 
@@ -15,23 +13,22 @@ main:
 # posts links
 posts-nav:
   - title: Programming
-    url: 
     children:
       - title: "Android"
-        url: /docs/quick-start-guide/
-      - title: "Kotlin Language"
-        url:
-      - title: "C#"
-        url:
+        url: /categories/programming-android/
+      - title: "Feature"
+        url: /categories/programming-feature/
       - title: "Etc"
-        url:
+        url: /categories/programming-etc/
   - title: Algorithm
+    children:
+      - title: "Java"
+        url: /categories/algorithm-java/
   - title: Daily Life
     children:
       - title: "Travle"
+        url: /categories/dailylife-travle/
       - title: "Ukulele"
-        url:
+        url: /categories/dailylife-ukulele/
       - title: "Kalimba"
-        url:
-      - title: "Etc"
-        url:
+        url: /categories/dailylife-kalimba/
