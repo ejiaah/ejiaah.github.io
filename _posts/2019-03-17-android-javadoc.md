@@ -12,7 +12,8 @@ toc: true
 toc_sticky: true
 ---
 
-# JavaDoc이란 무엇인가?
+## JavaDoc이란 무엇인가?
+
 JavaDoc은 **Java 코드에서 API 문서를 HTML 형식으로 생성해주는 도구**이다.
 Android 개발자라면 Android 개발자 사이트에서 자주 보았을 형식이다.
 
@@ -22,7 +23,7 @@ HTML 형식이어서 관련 다른 API를 하이퍼 링크를 통해 접근이 �
 Android는 당연하고 Kakao SDK([Link](https://developers.kakao.com/docs/android-reference/overview-summary.html))에서도 .css파일만 변경하여 JavaDoc으로 가이드 문서를 제공하고 있는듯하다.
 
 
-# JavaDoc Tags
+## JavaDoc Tags
 
 JavaDoc은 여러 Tag를 작성하여 문서를 완성한다.
 
@@ -47,7 +48,7 @@ Javadoc Tags 종류는 다음과 같다.
 
 아래 내용은 위 태그를 직접 만든 Gallery Project([Link](https://github.com/ejiaah/android-gallery))에 적용한 예제이다.
 
-## Class 또는 Interface 
+### Class 또는 Interface 
 
 ```java
 /**
@@ -83,7 +84,7 @@ public interface GalleryListener {
 
 
 
-## Field
+### Field
 ```java
 /**
  * Name of Album
@@ -107,7 +108,7 @@ private int count = 0;
 
 
 
-## Constructor and Method Tags
+### Constructor and Method Tags
 
 ```java
 /**
@@ -149,9 +150,9 @@ public boolean isNumberFormat(String stringNumber) {
 
 
 
-# JavaDoc 사용하기
+## JavaDoc 사용하기
 
-## JavaDoc 생성하기
+### JavaDoc 생성하기
 
 Android Studio 메뉴 'Tools-Generate JavaDoc...' 을 선택한다.
 
@@ -168,7 +169,7 @@ Android Studio 메뉴 'Tools-Generate JavaDoc...' 을 선택한다.
 
 
 
-## Android Studio에서 JavaDoc 확인하기
+### Android Studio에서 JavaDoc 확인하기
 
 Android Studio에서 함수에 마우스를 가져다대면  JavaDoc을 바로 확인할 수 있는 설정이 있다.
 
