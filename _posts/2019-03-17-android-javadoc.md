@@ -78,7 +78,7 @@ public interface GalleryListener {
 }
 ```
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190313-android-javadoc/img-4.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190317-android-javadoc/img-4.png)
 
 
 
@@ -101,8 +101,8 @@ private String name = "";
  */
 private int count = 0;
 ```
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190313-android-javadoc/img-5.png)
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190313-android-javadoc/img-6.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190317-android-javadoc/img-5.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190317-android-javadoc/img-6.png)
 
 
 
@@ -144,8 +144,8 @@ public boolean isNumberFormat(String stringNumber) {
     return true;
 }
 ```
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190313-android-javadoc/img-7.png)
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190313-android-javadoc/img-8.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190317-android-javadoc/img-7.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190317-android-javadoc/img-8.png)
 
 
 
@@ -155,7 +155,7 @@ public boolean isNumberFormat(String stringNumber) {
 
 Android Studio 메뉴 'Tools-Generate JavaDoc...' 을 선택한다.
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190313-android-javadoc/img-1.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190317-android-javadoc/img-1.png)
 
 1. JavaDoc을 생성할 범위를 선택한다. (ex. Whole project, Module 'app' ...)
 2. JavaDoc을 생성할 Output directory 경로를 설정한다.
@@ -173,12 +173,12 @@ Android Studio 메뉴 'Tools-Generate JavaDoc...' 을 선택한다.
 Android Studio에서 함수에 마우스를 가져다대면  JavaDoc을 바로 확인할 수 있는 설정이 있다.
 
 'Files-Settings...' 를 선택한다.
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190313-android-javadoc/img-2.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190317-android-javadoc/img-2.png)
 'Editor-General' 에서 Show quick documentation on mouse move를 체크한다.
 
 설정하면 아래와 같이 Documentation을 확인할 수 있다. 
 (예제는 Integer.parseInt에 마우스를 가져다 대었을 때이다.)
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190313-android-javadoc/img-3.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190317-android-javadoc/img-3.png)
 
 
 
