@@ -22,8 +22,8 @@ posts-nav:
         url: /categories/programming-etc/
   - title: Algorithm
     children:
-      - title: "Java"
-        url: /categories/algorithm-java/
+      - title: "HackerRank"
+        url: /categories/algorithm-hackerrank/
   - title: Daily Life
     children:
       - title: "Travle"
