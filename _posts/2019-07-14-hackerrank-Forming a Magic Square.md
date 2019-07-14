@@ -23,9 +23,8 @@ HackerRank는 문제가 전부 영어로 되어있으며 Java, Kotlin, Swift, Py
 앞으로 꾸준히 풀어보면서 포스팅하려고 합니다! 
 
 ---
-## Forming a Magic Square
 
-### 문제
+## 문제
 
 링크: [Forming a Magic Square (Medium Level)](https://www.hackerrank.com/challenges/magic-square-forming/problem)
 
@@ -51,8 +50,8 @@ Magic Square는 흔히 마방진으로 알려져 있으며 가로, 세로, 대�
 3방진의 경우 가로, 세로, 대각선의 합이 15입니다.
 
 
-### 풀이
-#### 홀수 마방진
+## 풀이
+### 홀수 마방진
 마방진은 만드는 규칙이 있습니다. 
 홀수 배열 마방진과 짝수 배열 마방진은 그 규칙이 조금 다른데 이 포스트 에서는 홀수 마방진을 만드는 방법만 설명합니다.
 
