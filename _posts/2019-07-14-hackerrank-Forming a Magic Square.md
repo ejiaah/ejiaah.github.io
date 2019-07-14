@@ -103,6 +103,7 @@ static void perm(List<List<Integer>> permList, int[] arr, int pivot) {
 ```
 2. 3차 Magic Square 만들기
     - makeMagicSquare() 함수를 통해 Magic Square의 규칙인 '가로, 세로, 대각선의 합이 15'인 행렬만 추가하여 총 8개의 Magic Square를 만듭니다.
+
 ```java
 static List<List<Integer>> makeMagicSquare() {
         //가운데 5는 고정, 8개의 숫자순열
@@ -135,6 +136,7 @@ static List<List<Integer>> makeMagicSquare() {
 3. input 행렬과의 차의 합을 구했을 때 가장 작은 값
     - 2에서 구한 Magic Square의 갯수만큼 for문을 돌아 minCost를 구합니다.
     - 모든 차이가 가장 작은 1과 가장 큰 9의 차인 8만큼 난다고 가정했을 때 가장 큰 값은 72가 나오게 됩니다. minCost = 72로 두고 시작하였습니다.
+
 ```java
 static int formingMagicSquare(int[][] s) {
         //3x3 마방진의 갯수는?
