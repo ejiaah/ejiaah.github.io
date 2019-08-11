@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /
+permalink: /home/
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/page-home/header.jpg
@@ -21,14 +21,14 @@ feature_row:
     alt: "algorithm"
     title: "Algorithm"
     excerpt: "알고리즘 공부"
-    url: "/docs/layouts/"
+    url: "/categories/algorithm-hackerrank"
     btn_class: "btn--primary"
     btn_label: "Algorithm"
   - image_path: /assets/images/page-home/feature3.png
     alt: "azit"
     title: "Azit"
     excerpt: "내 아지트"
-    url: "/docs/license/"
+    url: "/Azit/portfolio/"
     btn_class: "btn--primary"
     btn_label: "Azit"      
 ---

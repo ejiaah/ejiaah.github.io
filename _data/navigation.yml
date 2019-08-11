@@ -3,7 +3,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Categories"
-    url: /categories/
+    url: /
   - title: "Archive"
     url: /year-archive/
   - title: "Azit"
