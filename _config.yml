@@ -88,10 +88,21 @@ facebook:
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
+# social:
+#   type                   : # Person or Organization (defaults to Person)
+#   name                   : # If the user or organization name differs from the site's name
+#   links: # An array of links to social media profiles
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  - title: twitter
+    url: https://twitter.com/ejiaah
+  - title: facebook
+    url: https://facebook.com/ejiaah
+  - title: github
+    url: https://github.com/ejiaah
+  - title: instagram
+    url: https://instagram.com/ejiaah
 
 # Analytics
 analytics:
@@ -136,7 +147,7 @@ footer:
       url: "https://twitter.com/ejiaah"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://facebook.com/ejiaah"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ejiaah"
