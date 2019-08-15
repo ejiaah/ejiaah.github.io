@@ -1,0 +1,37 @@
+---
+title: レボトーク(레보토크)
+subtitle: App
+layout: default
+modal-id: 3
+date: 2017-07-01
+img: revotalk.png
+thumbnail: revotalk-thumbnail.png
+alt: image-alt
+project-date: 2017-07 ~ 2018-02
+client: User
+category: App
+---
+
+------
+#### 프로젝트 소개
+
+* 혈맹의 정보를 누구보다 빨리 확인하고 싶은, 혈맹원들에게는 빼놓을 수 없는 앱 입니다.
+  * 게임에 로그인하지 않아도 혈맹원들과 실시간으로 토크가 가능합니다.
+  *  혈맹 포럼에서 게임에 대한 정보 및 공략을 공유할 수 있습니다.
+  *  게임의 소식과 이벤트 정보를 빠르게 확인할 수 있습니다.
+* 현재 일본에서 서비스 중입니다. ([마켓 Link](https://play.google.com/store/apps/details?id=com.netmarble.revolutionjpw&hl=ja))
+
+------
+#### 담당 업무
+
+* 앱에서 채팅 클라이언트 부분을 맡아 개발
+  * Talk SDK를 이용한 메시지 송수신 구현(텍스트/스티커/미디어/게임 딥링크)
+  * RecyclerView를 이용하여 메시지 리스트 구성
+  * 공지, 메시지 삭제, 읽지 않은 메시지, 최근 메시지 등 기본적인 메신저 앱 기능 구현
+  * 채팅, 메시지 탭 및 프로필 layout 구성
+
+------
+#### 개발 환경
+
+* OS: Android
+* 개발언어- Java

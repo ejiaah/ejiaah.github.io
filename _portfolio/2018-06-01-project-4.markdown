@@ -1,0 +1,39 @@
+---
+title: 	블레이드&소울 레볼루션 World
+subtitle: App
+layout: default
+modal-id: 4
+date: 2018-06-01
+img: bnsmw.png
+thumbnail: bnsmw-thumbnail.png
+alt: image-alt
+project-date: 2018.06 ~ 2018.12
+client: User
+category: App
+---
+
+------
+#### 프로젝트 소개
+
+* 게임에 접속하지 않아도 게임 정보 및 채팅을 확인할 수 있는 커뮤니티 앱 입니다.
+  * 게임 속 문파원, 게임 친구들과 실시간 채팅이 가능합니다.
+  * 공식 커뮤니티에서 최신 게임 소식과 게임 공략을 확인할 수 있습니다.
+  * 문파 커뮤니티에서 문파원간 유용한 TIP과 일정을 관리할 수 있습니다.
+  * 내 캐릭터 정보는 물론, 친구와 문파원의 캐릭터 정보까지 확인할 수 있습니다.
+* 현재 한국에서 서비스 중입니다. ([마켓 Link](https://play.google.com/store/apps/details?id=com.netmarble.bnsmw&hl=ko))
+
+------
+#### 담당 업무
+
+* 앱에서 채팅 및 프로필 클라이언트 부분을 맡아 개발하였습니다.
+  * Talk SDK를 이용한 채팅방 생성 및 메시지 송수신 구현(텍스트/스티커/미디어/게임 딥링크)
+  * 채팅방 리스트 및 채팅 방 생성/나가기 기능 구현 
+  * RecyclerView를 이용하여 메시지 리스트 구성
+  * 공지, 메시지 삭제, 읽지 않은 메시지, 최근 메시지 등 기본적인 메신저 앱 기능 구현
+  * 스티커 이모티콘 동적 다운로드 개발
+  * 친구 및 채팅방, 메시지, 프로필 팝업 layout 구성
+
+------
+#### 개발 환경
+* OS: Android
+* 개발언어: Java

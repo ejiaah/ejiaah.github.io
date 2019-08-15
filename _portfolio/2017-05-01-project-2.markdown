@@ -1,0 +1,35 @@
+---
+title: Talk
+subtitle: SDK
+layout: default
+modal-id: 2
+date: 2017-05-01
+img: talk.png
+thumbnail: talk-thumbnail.png
+alt: image-alt
+project-date: 2017.05 ~ 
+client: User
+category: SDK
+---
+
+------
+#### 프로젝트 소개
+
+별도의 서버 구성 없이, 동일 게임내에서 유저간 채팅 기능을 제공하는 서비스입니다.
+
+------
+#### 담당 업무
+
+* Talk Android/Unity SDK 개발
+  * C++ Aho-corasick 알고리즘을 이용한 채팅 금칙어 필터링
+  * Google Protobuf 를 이용하여 서버 통신 구현
+    * 월드 채팅, 채널 채팅, 길드 채팅, 일반 채팅 등 용도별 채팅 지원
+  * 메시지 도배/차단 기능 제공
+  * 게임과 채팅 App과의 연동 지원
+  * 미디어 파일 업로드/뷰어 기능 제공
+
+------
+#### 개발 환경
+
+* OS: Android, Uniy
+* 개발언어: Java, C++, C#

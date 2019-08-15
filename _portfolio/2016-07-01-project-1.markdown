@@ -1,0 +1,34 @@
+---
+title: VoiceTalk
+subtitle: SDK
+layout: default
+modal-id: 1
+date: 2016-07-01
+img: voicetalk.png
+thumbnail: voicetalk-thumbnail.png
+alt: image-alt
+project-date: 2016.07 ~ 2018.07
+client: User
+category: SDK
+---
+
+------
+#### 프로젝트 소개
+
+유저간의 커뮤니케이션이 어려운 모바일 게임의 특성을 보완하기 위해 게임 내에서 빠른 의사소통을 지원하는 음성 서비스 입니다.
+
+------
+#### 담당 업무
+
+* VoiceTalk Android SDK 개발
+  * JNI를 이용하여 인코딩/디코딩한 음성데이터 송/수신 기능 구현
+  * VoiceTalk 음성 전송 모드/Quality/SampleRate 설정 기능 제공
+  * 말하기/듣기/유저 권한 설정 기능 구현
+  * Google Speech 를 이용한 STT 기능을 구현. 유저의 음성을 텍스트로 변환하여 보이스톡 방에 입장한 유저들에게 전달
+
+
+------
+#### 개발 환경
+
+* OS: Android
+* 개발언어: Java, C++
