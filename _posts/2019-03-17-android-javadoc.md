@@ -144,8 +144,8 @@ public boolean isNumberFormat(String stringNumber) {
     return true;
 }
 ```
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190317-android-javadoc/img-7.png)
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190317-android-javadoc/img-8.png)
+![alt]({{ site.url }}/assets/images/post/190317-android-javadoc/img-7.png)
+![alt]({{ site.url }}/assets/images/post/190317-android-javadoc/img-8.png)
 
 
 
@@ -173,12 +173,12 @@ Android Studio 메뉴 'Tools-Generate JavaDoc...' 을 선택합니다.
 Android Studio에서 함수에 마우스를 가져다대면  JavaDoc을 바로 확인할 수 있는 설정이 있습니다.
 
 'Files-Settings...' 를 선택합니다.
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190317-android-javadoc/img-2.png)
+![alt]({{ site.url }}/assets/images/post/190317-android-javadoc/img-2.png)
 'Editor-General' 에서 Show quick documentation on mouse move를 체크합니다.
 
 설정하면 아래와 같이 Documentation을 확인할 수 있습니다. 
-(예제는 Integer.parseInt에 마우스 포인터를 가져다 댄 경우 입니다.)
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/post/190317-android-javadoc/img-3.png)
+(예제는 Integer.parseInt에 마우스 포인터를 올렸을 때 입니다.)
+![alt]({{ site.url }}/assets/images/post/190317-android-javadoc/img-3.png)
 
 
 
