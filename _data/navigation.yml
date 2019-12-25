@@ -6,6 +6,8 @@ main:
     url: /
   - title: "Archive"
     url: /year-archive/
+  - title: "A-Yo"
+    url: /a-yo/
   - title: "Azit"
     url: /Azit/portfolio/
 
